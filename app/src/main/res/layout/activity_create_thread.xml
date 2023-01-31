@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreateThread">
+
+    <ImageView
+        android:id="@+id/background1Thread"
+        android:layout_width="343dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150px"
+        android:src="@drawable/background2"
+
+        />
+
+    <ImageView
+        android:id="@+id/backgroundThread"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="450px"
+        android:src="@drawable/background"
+        />
+
+    <EditText
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150px"
+        android:layout_marginTop="450px"
+        android:hint="Thread title"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150px"
+        android:hint="Content"
+        android:id="@+id/content"
+        android:textColor="@color/black"
+        android:layout_below="@+id/title"
+
+        />
+
+    <ImageButton
+        android:id="@+id/post"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/backgroundThread"
+        android:layout_marginTop="-48dp"
+        android:src="@drawable/post"
+        android:layout_marginLeft="800px"
+        />
+
+    <ImageView
+        android:layout_width="51dp"
+        android:layout_height="45dp"
+        android:layout_below="@id/post"
+        android:layout_marginTop="-450dp"
+        android:layout_marginLeft="150px"
+        android:src="@drawable/profile" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/post"
+        android:layout_marginLeft="125px"
+        android:layout_marginTop="-379dp"
+        android:text="New Thread"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/resultss"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/post"
+        android:layout_marginLeft="150px"
+        android:layout_marginTop="-30dp"
+        android:text="21 Dec 2022"
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:id="@+id/results"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/post"
+        android:layout_marginLeft="305px"
+        android:layout_marginTop="-440dp"
+        android:text="Marcelius Johannes"
+        android:textColor="@color/black"
+        android:textSize="50px"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="79dp"
+        android:layout_height="37dp"
+        android:layout_below="@id/post"
+        android:layout_marginLeft="50px"
+        android:layout_marginTop="-515dp"
+        android:src="@drawable/logo" />
+
+    <ImageView
+        android:id="@+id/navbar"
+        android:layout_width="match_parent"
+        android:layout_height="81dp"
+        android:layout_marginTop="1750px"
+        android:src="@drawable/navbar" />
+
+</RelativeLayout>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Comment">
+
+
+    <ImageView
+        android:id="@+id/background1Thread"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150px"
+        android:src="@drawable/background3"
+        />
+
+    <ImageView
+        android:layout_width="36dp"
+        android:layout_height="32dp"
+        android:layout_marginLeft="150px"
+        android:layout_marginTop="65dp"
+        android:src="@drawable/profile" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="255px"
+        android:layout_marginTop="70dp"
+        android:text="Marcelius Johannes"
+        android:textColor="@color/black"
+        android:textSize="35px"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/thread"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="160px"
+        android:layout_marginTop="105dp"
+        android:text="Thread ..."
+        android:textColor="@color/black"
+        android:textSize="30px" />
+
+    <ImageView
+        android:id="@+id/backgroundcomment"
+        android:layout_width="343dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="800px"
+        android:src="@drawable/background2"
+
+        />
+
+    <TextView
+        android:id="@+id/isiKomen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="396dp"
+        android:layout_marginLeft="60dp"
+        android:hint="Write your comment here!"
+        android:textSize="15dp" />
+
+    <ImageButton
+        android:id="@+id/send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="54dp"
+        android:layout_marginBottom="348dp"
+        android:background="@null"
+        android:src="@drawable/post" />
+
+    <ImageView
+        android:layout_width="79dp"
+        android:layout_height="37dp"
+        android:layout_marginLeft="50px"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/logo" />
+    <ImageView
+        android:id="@+id/navbar"
+        android:layout_width="match_parent"
+        android:layout_height="81dp"
+        android:layout_marginTop="1750px"
+        android:src="@drawable/navbar" />
+</RelativeLayout>
